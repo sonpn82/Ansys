@@ -1,0 +1,6 @@
+
+name	definition	description	input-parameter	output-parameter
+"ave_ptot_in"	"Average(TotalPressure,['r1-inlet'],Weight = 'MassFlowRate')"	""	#f	#f
+"ave_ptot_out"	"Average(TotalPressure,['s1-outlet'],Weight = 'MassFlowRate')"	""	#f	#f
+"deltapt"	"ave_ptot_out-ave_ptot_in"	""	#f	#f
+"omega"	"301.593 [radian s^-1]"	""	#t	#f

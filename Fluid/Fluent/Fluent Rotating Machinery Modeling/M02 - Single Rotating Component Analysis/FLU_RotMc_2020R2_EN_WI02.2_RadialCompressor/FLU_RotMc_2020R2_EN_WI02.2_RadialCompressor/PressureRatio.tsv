@@ -1,0 +1,5 @@
+
+name	definition	description	input-parameter	output-parameter
+"ave_ptot_in"	"Average(TotalPressure,['inblock-inflow'],Weight = 'MassFlowRate')"	""	#f	#f
+"ave_ptot_out"	"Average(TotalPressure,['outblock-outflow'],Weight = 'MassFlowRate')"	""	#f	#f
+"ptot_ratio"	"ave_ptot_out/ave_ptot_in"	""	#f	#f
